@@ -17,6 +17,7 @@ Verdrahtet über `assets.hostedAssetBase` im Brand-Profil der Revenue Engine
 |---|---|---|
 | `mira-hansen.jpg` | Signaturbild, rund | 220 x 220, Kreis in die Datei eingebrannt |
 | `banner.jpg` | Banner unter dem Knopf | 1200 x 150, zeigt bei 600 px Breite |
+| `banner-hotel.jpg` | Banner für Hotel-Leads (Segment Hotellerie, `bannerFuer` im Brand-Profil) | 1200 x 150, wie `banner.jpg`; Foto: Unsplash `stSJOcH8JJg`, Unsplash-Lizenz |
 
 Der Kreis steckt in der Datei und nicht in CSS, weil Outlook `border-radius`
 auf `<img>` ignoriert und das Bild dort sonst quadratisch erscheint. Der Grund
